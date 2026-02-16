@@ -11,6 +11,9 @@ api_project/
 │ └── validators.py         # validate_items function
 │── data/
 │ └── posts.json            # output file with API data
+│── tests/                  # unit tests
+│ └── test_api_client.py
+│ └── test_main.py
 │── main.py                 # your code (TODOs)
 │── requirements.txt        # project dependencies
 │── README.md # this file
