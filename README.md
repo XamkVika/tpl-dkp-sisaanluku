@@ -20,7 +20,7 @@ api_project/
 1. Clone this repository.
 2. Create and activate a virtual environment and install requirements
 
-in [Visual Studio Code (instructions here)](https://code.visualstudio.com/docs/python/environments#_creating-environments), select the requirements.txt file when promted for dependecies
+in [Visual Studio Code (instructions here)](https://code.visualstudio.com/docs/python/environments#_creating-environments), select the requirements.txt file when prompted for dependencies
 
 OR
 
@@ -31,8 +31,12 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Open api_client.py and main.py and follow the step-by-step instructions in the comments. The point is to fetch data from an API, validate it and save the data.
+3. Open api_client.py and main.py and follow the step-by-step instructions in the comments. The point is to fetch data from an API, validate it and save the data to a file.
 
 4. To run your code, make sure that you have the correct Python environment in use (in VS Code you have to select the correct environment interpreter).
 
-5. Commit and push your changes to this repository.
+5. Run tests in cmd: 
+```
+pytest
+```
+6. Commit and push your changes to this repository.
